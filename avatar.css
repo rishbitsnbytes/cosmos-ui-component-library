@@ -5,28 +5,48 @@
 .avatar-xl-size {
     width: 15rem;
     height: 15rem;
+    font-size: 6rem;
 }
 
 .avatar-lg-size {
     width: 10rem;
     height: 10rem;
+    font-size: 4rem;
 }
 
 .avatar-md-size {
     width: 7rem;
     height: 7rem; 
+    font-size: 3rem;
 }
 
 .avatar-sm-size {
     width: 4rem;
     height: 4rem; 
+    font-size: 2rem;
 }
 
 .avatar-xs-size {
     width: 1.5rem;
-    height: 1.5rem; 
+    height: 1.5rem;
+    font-size: 1rem;
 }
 
 .img-round {
     border-radius: 50%;
+}
+
+.avatar-txt-round {
+    border-radius: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-txt-square {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
