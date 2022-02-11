@@ -1,14 +1,6 @@
-@import url(/avatar.css);
-@import url();
-@import url('https://github.com/rishbitsnbytes/cosmos-ui-component-library/blob/development/Styles/variables and fonts.css');
+@import url(/Components/avatar.css);
+@import url(/Styles/variables-and-fonts.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
 
 .img-responsive {
     width: 100%;
@@ -32,15 +24,14 @@ body {
 
 .online {
     background-color: var(--online);
-    /* background-color: #00FF00; */
 }
 
 .offline {
-    background-color: #FF0000;
+    background-color: var(--offline);
 }
 
 .idle {
-    background-color: #D3D3D3	;
+    background-color: var(--idle)	;
 }
 
 .icon-parent {
@@ -77,7 +68,7 @@ body {
 
 .text-badge {
     position: absolute;
-    font-size: 50%;
+    font-size: 75%;
     padding: 0.3rem;
     margin: 0rem 0.5rem;
     border-radius: 0.3rem;
