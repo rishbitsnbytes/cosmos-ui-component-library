@@ -1,0 +1,46 @@
+@import url(/Styles/variables-and-fonts.css);
+
+.btn {
+   padding: 0.5rem;
+   border-radius: 0.3rem;
+   margin: 0.5rem;
+   cursor: pointer;
+   border: none;
+   background-color: unset;
+   font-size: 1rem;
+}
+
+.btn-primary {
+    background-color:var(--primary-color);
+    color: white;   
+}
+
+.btn-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-link {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.btn-icon {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.btn-primary-with-icon {
+    background-color:var(--primary-color);
+    color: white;
+}
+
+.icon-in-btn {
+    margin: 0rem 0.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-fab {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
