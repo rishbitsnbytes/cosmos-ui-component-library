@@ -1,1 +1,1 @@
-# component-library
+# cosmos-UI-component-library
