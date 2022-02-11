@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root{
+   
+    /* Colors */
+    --primary-color: #4FBDBA;
+    --secondary-color: #AEFEFF;
+    --tertiary-color:#35858B;
+    --dark-bg-color: #072227;
+    --alt-dark-bg-color: #041C32;
+    --text-light-color:#F1F1F1;
+    --text-dark-color: black;
+
+    /* Badge Colors */
+    --online: #00FF00;
+    --offline: #FF0000;
+    --idle: #D3D3D3;
+
+
+    /* Alert Colors */
+    --alert-primary-bg:#7FD2E6;
+    --alert-primary-text: #29438b;
+    --alert-secondary-bg: #eaeaec;
+    --alert-secondary-text:#696b79;
+    --alert-success-bg:  #84f1c9;
+    --alert-success-text: #1b7052;
+    --alert-danger-bg:  #fcc5c5;
+    --alert-danger-text: #dc3545;--alert-warn-bg:  #ffe7c5;
+    --alert-warn-text: #ff9204;
+}
