@@ -1,0 +1,75 @@
+@import url(/Styles/variables-and-fonts.css);
+
+
+/* <!-- Inputs default --> */
+
+.input-grp {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.5rem;
+    width: 15rem;
+}
+
+.labels {
+    font-weight: bold;
+    margin: 0.3rem;
+}
+
+.input-default {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-dark-color);
+}
+
+
+/* Input Validation Feedbacks */
+
+.input-feedback-msg {
+    font-size: smaller;
+    font-weight: 950;
+    margin: 0.5rem;
+}
+
+
+/* <!-- Inputs with warning validation style --> */
+
+.input-warn {
+    border: 1px solid var(--border-warn-color);
+}
+
+.input-warn-msg {
+    color: var(--border-warn-color);
+}
+
+
+/* <!-- Inputs with success validation style --> */
+
+.input-success {
+    border: 1px solid var(--border-success-color);
+}
+
+.input-success-msg {
+    color: var(--border-success-color);
+}
+
+
+/* <!-- Inputs with error validation style --> */
+
+.input-error {
+    border: 1px solid var(--border-error-color);
+}
+
+.input-error-msg {
+    color: var(--border-error-color);
+}
+
+
+/* <!-- Input Textbox --> */
+
+.input-textbox {
+    width: 30rem;
+    padding: 0.5rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-dark-color);
+}

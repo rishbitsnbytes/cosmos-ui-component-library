@@ -8,7 +8,7 @@ body {
 
 :root {
 
-    /* Colors */
+    /* Body or Main Colors */
     --primary-color: #4FBDBA;
     --secondary-color: #AEFEFF;
     --tertiary-color: #35858B;
@@ -18,6 +18,14 @@ body {
     --text-dark-color: #000000;
     --text-dark-alt-color: #808080;
     --shadow-bg-gen: #808080;
+
+    /* Input colors */
+    --border-dark-color: #000000;
+    --border-light-color: #808080;
+    --border-warn-color: #eed202;
+    --border-error-color: #FF0000;
+    --border-success-color: #009E60;
+
 
     /* Badge Colors */
     --online: #00FF00;

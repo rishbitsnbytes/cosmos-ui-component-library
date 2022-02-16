@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rishabh Rathore">
+    <link rel="stylesheet" href="/Components/Inputs/inputs.css">
+
+    <title>Input Components</title>
+</head>
+
+
+<body>
+     <!-- Input default -->
+
+     <div class="input-grp">
+        <label for="email" class="labels">E-mail</label>
+        <input type="text" id="email" class="input-default " placeholder="example@example.com">
+    </div>
+
+
+    <!-- Inputs with warning validation style -->
+
+    <div class="input-grp">
+        <label for="password" class="labels">Password</label>
+        <input type="text" id="password" class="input-default input-warn" placeholder="password">
+        <span class="input-feedback-msg input-warn-msg">Weak Password</span>
+    </div>
+
+
+    <!-- Inputs with success validation style -->
+
+    <div class="input-grp">
+        <label for="password" class="labels">Password</label>
+        <input type="text" id="password" class="input-default input-success" placeholder="password">
+        <span class="input-feedback-msg input-success-msg">Strong Password</span>
+    </div>
+
+
+    <!-- Inputs with error validation style -->
+
+    <div class="input-grp">
+        <label for="email2" class="labels">E-mail</label>
+        <input type="text" id="email2" class="input-default input-error" placeholder="example@example.com">
+        <span class="input-feedback-msg input-error-msg">Incorrect E-mail</span>
+    </div>
+
+
+    <!-- Input Textbox -->
+
+    <div class="input-grp">
+        <label for="input-textbox" class="labels">Comments
+        </label>
+        <textarea class="input-textbox" id="input-textbox" placeholder="write your thoughts..."></textarea>
+    </div>
+</body>
