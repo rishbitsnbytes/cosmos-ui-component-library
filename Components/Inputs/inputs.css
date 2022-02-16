@@ -1,23 +1,6 @@
 @import url(/Styles/variables-and-fonts.css);
 
 
-
-/* <!-- Image Responsive and Round --> */
-
-.img-responsive {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-
-.img-round {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-}
-
-
 /* <!-- Inputs default --> */
 
 .input-grp {
