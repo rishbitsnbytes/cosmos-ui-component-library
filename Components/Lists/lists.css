@@ -1,0 +1,30 @@
+@import url(/Styles/variables-and-fonts.css);
+
+
+/* Lists */
+
+.list-spaced {
+    list-style-position: inside;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-inline {
+    display: flex;
+}
+
+.list-inline-item {
+    margin: 1rem;
+}
+
+.list-heading {
+    font-weight: var(--weight-bold);
+    font-size: var(--h3);
+}
+
+.list-item {
+    font-size: var(--h5);
+}
+
