@@ -13,11 +13,16 @@ body {
     --secondary-color: #AEFEFF;
     --tertiary-color: #35858B;
     --dark-bg-color: #072227;
-    --alt-dark-bg-color: #041C32;
+    --light-alt-bg-color: #F1F1F1; 
+    --dark-alt-bg-color: #041C32;
     --text-light-color: #F1F1F1;
     --text-dark-color: #000000;
     --text-dark-alt-color: #808080;
     --shadow-bg-gen: #808080;
+    --text-primary-color: #4FBDBA;
+    --text-secondary-color: #808080;
+
+
 
     /* Input colors */
     --border-dark-color: #000000;
@@ -46,4 +51,36 @@ body {
     --alert-danger-text: #dc3545;
     --alert-warn-bg: #ffe7c5;
     --alert-warn-text: #ff9204;
+    --alert-error-bg: #fcc5c5;
+    --alert-error-text: #dc3545;
+
+
+    /* Font-sizes */
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --h3: 1.17rem;
+    --h4: 1rem;
+    --h5: 0.83rem;
+    --h6: 0.67rem;
+
+    /* Line-heights */
+    --line-ht-xs: 1;
+    --line-ht-sm: 1.25;
+    --line-ht-reg: 1.50;
+    --line-ht-md: 1.75;
+    --line-ht-lg: 2;
+    --line-ht-xl: 2.5;
+
+    /* Font-weights */
+
+
+    --weight-thin: 300;
+    --weight-light: 500;
+    --weight-reg: 600;
+    --weight-bold: 700;
+    --weight-xbold: 900;
+
+
+
+
 }

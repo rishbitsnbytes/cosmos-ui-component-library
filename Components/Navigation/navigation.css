@@ -1,0 +1,107 @@
+@import url(/Styles/variables-and-fonts.css);
+
+
+
+
+.nav-bar {
+    width: 100%;
+    height: fit-content;
+    font-weight: var(--weight-bold);
+    background-color: var(--secondary-color);
+    
+    padding: 0.1rem 2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo {
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+
+.nav-logo-title-container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.search-bar{
+    background-color: var(--light-alt-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-dark-alt-color);
+    border-radius: 0.3rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.search-bar-input{
+    width: calc(100% - 2rem);
+    border: none;
+    background-color: unset;
+    outline: 0px;
+    font-size: 1rem;
+}
+
+
+.icon-parent {
+    position: relative;
+    max-width: max-content;
+    height: max-content;
+    box-sizing: border-box;
+    margin: 2rem 1rem;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.count {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: -140%;
+    right: -50%;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.3rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: none;
+    background-color: unset;
+    font-size: 1rem;
+    height: 50%;
+ }
+ 
+ .btn-primary {
+     background-color:var(--primary-color);
+     color: white;   
+ }
+ 
+ .btn-link {
+     text-decoration: underline;
+     color: var(--primary-color);
+ }
