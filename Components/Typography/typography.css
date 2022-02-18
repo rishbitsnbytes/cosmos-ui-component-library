@@ -1,0 +1,101 @@
+@import url(/Styles/variables-and-fonts.css);
+
+/* Heading Stylings */
+
+.heading {
+    max-width: 100%;
+    font-weight: var(--weight-bold);
+}
+
+.heading-1 {
+    font-size: var(--h1);
+    line-height: var(--line-ht-md);
+}
+
+.heading-2 {
+    font-size: var(--h2);
+    line-height: var(--line-ht-reg);
+}
+
+.heading-3 {
+    font-size: var(--h3);
+    line-height: var(--line-ht-reg);
+}
+
+.heading-4 {
+    font-size: var(--h4);
+    line-height: var(--line-ht-reg);
+}
+
+.heading-5 {
+    font-size: var(--h5);
+    line-height: var(--line-ht-reg);
+}
+
+.heading-6 {
+    font-size: var(--h6);
+    line-height: var(--line-ht-reg);
+}
+
+/* Text Stylings */
+
+.text {
+    max-width: 100%;
+    font-weight: var(--weight-reg);
+}
+
+.text-xs {
+    font-size: 0.5rem;
+    line-height: var(--line-ht-sm);
+}
+
+.text-sm {
+    font-size: 0.75rem;
+    line-height: var(--line-ht-sm);
+}
+
+.text-md {
+    font-size: 1rem;
+    line-height: var(--line-ht-reg);
+}
+
+.text-lg {
+    font-size: 1.5rem;
+    line-height: var(--line-ht-md)
+}
+
+/* <!-- Text Positions --> */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* <!-- Colored Text --> */
+
+.text-color-primary {
+    color: var(--text-primary-color);
+}
+
+.text-color-secondary {
+    color: var(--text-secondary-color);
+}
+
+.text-color-success {
+    color: var(--alert-success-text);
+}
+
+.text-color-warn {
+    color: var(--alert-warn-text);
+}
+
+.text-color-error {
+    color: var(--alert-error-text);
+}
