@@ -1,0 +1,63 @@
+@import url(/Styles/variables-and-fonts.css);
+@import url(/Components/Buttons/buttons.css);
+
+
+
+.modal-container {
+    display: none;
+    z-index: 6;
+    padding: 0 1rem;
+}
+
+.modal-content {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    width: 100%;
+    height: 20rem;
+    overflow: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.text-container-title {
+    font-size: 2rem;
+    font-weight: var(--weight-xbold);
+    margin: 0rem;
+}
+
+.btn-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: unset;
+    border: unset;
+    font-size: var(--h2);
+    cursor: pointer;
+}
+
+.active {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
