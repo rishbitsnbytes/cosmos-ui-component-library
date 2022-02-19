@@ -13,7 +13,8 @@ body {
     --secondary-color: #AEFEFF;
     --tertiary-color: #35858B;
     --dark-bg-color: #072227;
-    --alt-dark-bg-color: #041C32;
+    --light-alt-bg-color: #F1F1F1; 
+    --dark-alt-bg-color: #041C32;
     --text-light-color: #F1F1F1;
     --text-dark-color: #000000;
     --text-dark-alt-color: #808080;
@@ -61,11 +62,14 @@ body {
     --h4: 1rem;
     --h5: 0.83rem;
     --h6: 0.67rem;
+
+
   
   
   /* Add text font-size varibles */
   
   
+
     /* Line-heights */
     --line-ht-xs: 1;
     --line-ht-sm: 1.25;
