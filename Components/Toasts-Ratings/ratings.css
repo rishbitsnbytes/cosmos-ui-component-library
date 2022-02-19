@@ -1,0 +1,55 @@
+@import url(/Styles/variables-and-fonts.css);
+@import url(/Components/Buttons/buttons.css);
+
+
+
+.rating-star-container {
+    margin: 0.5rem;
+    background-color: var(--secondary-color);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+}
+
+.rating-star-icon{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.rating-star-input:enabled .rating-star-icon{
+    cursor: pointer;
+}
+
+.rating-star-icon:hover{
+    color: var(--rating-star-hover);
+}
+
+.rating-star-input{
+    width: 0;
+    margin: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.rating-star-input:checked + .rating-star-icon{
+    color: var(--rating-star-checked);
+}
+
+.rating-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    width: fit-content;
+    font-size: 0.75rem;
+    font-weight: var(--weight-bold);
+    line-height: 0.75rem;
+    color: var(--text-dark-color);
+    background-color: var(--secondary-color);
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+.rating-badge-star {  
+    color: var(--rating-star-checked);
+    width: 0.75rem;
+    height: 0.75rem;
+}

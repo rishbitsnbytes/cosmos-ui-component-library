@@ -74,14 +74,18 @@ body {
     --line-ht-lg: 2;
     --line-ht-xl: 2.5;
 
+
     /* Font-weights */
-
-
     --weight-thin: 300;
     --weight-light: 500;
     --weight-reg: 600;
     --weight-bold: 700;
     --weight-xbold: 900;
+
+    /* Rating Colors */
+
+    --rating-star-hover: #ffd675;
+    --rating-star-checked:  #ffb400;
 
 
 

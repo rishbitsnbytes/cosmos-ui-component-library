@@ -1,0 +1,38 @@
+@import url(/Styles/variables-and-fonts.css);
+@import url(/Components/Buttons/buttons.css);
+
+
+.toast {
+    width: fit-content;
+    padding: 1rem 3rem 1rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 0.3rem;
+    display: none;
+    z-index: 5;
+}
+
+.toast-success {
+    background-color: var(--alert-success-bg);
+    color: var(--alert-success-text);
+}
+
+.toast-error {
+    background-color: var(--alert-error-bg);
+    color: var(--alert-error-text);
+}
+
+.toast-inform {
+    background-color: var(--alert-primary-bg);
+    color: var(--alert-primary-text);
+}
+
+.btn-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+}
