@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="name" content="Rishabh Rathore">
+    <meta name="description" content="Component Library Documentation Website">
     <link rel="stylesheet" href="/Docs/docs.css">
     <script src="https://kit.fontawesome.com/fa8f01e628.js" crossorigin="anonymous"></script>
     <title>Cosmos-UI Docs Page</title>
@@ -894,16 +895,29 @@
 
                 <h2>Example of styled slider</h2>
                 <div class="component-display-container">
-
+                    <div class="slider-container">
+                        <label class="slider-track" for="range">
+                            <input class="slider" type="range" name="range" id="range" min="0" max="150" value="15" />
+                        </label>
+                    </div>
+                
+                    <div class="slider-with-icon">
+                        <label class="slider-with-icon-label" for="range"><i class="fas fa-volume-up"></i></label>
+                        <input type="range" name="range" id="range" min="0" max="100" value="30" />
+                    </div>
                 </div>
                 <div class="code-box">
-
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2879%2C189%2C186%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=24px&ph=31px&ln=false&fl=1&fm=Hack&fs=12px&lh=133%25&si=false&es=4x&wm=false&code=%2520%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522slider-track%2522%2520for%253D%2522range%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520id%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522150%2522%2520value%253D%252215%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-with-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522slider-with-icon-label%2522%2520for%253D%2522range%2522%253E%253Ci%2520class%253D%2522fas%2520fa-volume-up%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range%2522%2520id%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252230%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
                 </div>
              </div>
 
              <hr>
 
-             
+
              <div id="Grid">
                 <h1 class="component-desc-heading">Grid Simplified</h1>
                 <p class="component-desc-para">Use grid when you want sections in view. Check below some
@@ -1056,25 +1070,16 @@
 
              <hr>
 
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
 
+        <!-- Footer -->
+
+        <footer class="section-footer">
+            <h3>Made with <span><i class="fa-solid fa-code"></i></span> & ❤️ by Rishabh Rathore</h3>
+            <a class="footer-social-links" href="https://github.com/rishbitsnbytes">Github</a>
+            <a class="footer-social-links" href="https://twitter.com/rishbitsnbytes">Twitter</a>
+            <a class="footer-social-links" href="https://www.linkedin.com/in/rishrathore/">LinkedIn</a>
+        </footer>
 
 
     </div>

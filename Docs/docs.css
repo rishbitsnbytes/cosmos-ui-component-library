@@ -1,5 +1,4 @@
 @import url(/Styles/all-imports.css);
-@import url(/styles.css);
 
 
 hr {
@@ -54,8 +53,12 @@ hr {
             'sidebar main main main main main'
             'sidebar main main main main main'
             'sidebar main main main main main'
-            'sidebar main main main main main';
+            'footer footer footer footer footer footer';
     
+}
+
+.section-footer {
+    grid-area: footer;
 }
 
 .main-section {
@@ -111,4 +114,20 @@ hr {
 }
 
 
+/* Footer */
+footer {
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 3rem;
+    margin: 0rem;
+    width: 100%;
+    height: 10rem;
+    z-index: 1;
+}
 
+.footer-social-links {
+    margin: 1rem;
+    color: var(--primary-color);   
+}

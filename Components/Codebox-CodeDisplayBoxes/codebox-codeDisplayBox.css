@@ -1,0 +1,14 @@
+@import url(/Styles/all-imports.css);
+
+
+/* New codes for Home and Docs Page */
+.code-box {
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 20rem;
+    padding: 0.5rem 0;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    height: 20rem;
+}

@@ -1,4 +1,3 @@
-@import url(/Styles/variables-and-fonts.css);
 @import url(/Styles/all-imports.css);
 
 
@@ -23,6 +22,10 @@
 .btn {
     width: fit-content;
     margin: 1rem;
+}
+
+.btn-no-link {
+    text-decoration: none;
 }
 
 .text-container-desc {
