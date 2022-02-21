@@ -1,37 +1,40 @@
 @import url(/Styles/variables-and-fonts.css);
 
 .alert {
-    padding: 0.5rem;
+    padding: 0.5rem 2rem 0.5rem 1rem;
     border-radius: 0.5rem;
-    max-width: 25rem;
+    max-width: fit-content;
     margin: 1rem;
 }
 
-.btn-primary-alert {
+.btn-alert-primary {
     margin: 0.5rem;
 }
 
-.primary-alert {
+.alert-primary {
     color: var(--alert-primary-text);
     background-color: var(--alert-primary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.secondary-alert {
+.alert-secondary {
     color: var(--alert-secondary-text);
     background-color: var(--alert-secondary-bg);
 }
 
-.success-alert {
+.alert-success {
     color: var(--alert-success-text);
     background-color: var(--alert-success-bg);
 }
 
-.danger-alert {
+.alert-danger {
     color: var(--alert-danger-text);
     background-color: var(--alert-danger-bg);
 }
 
-.warn-alert {
+.alert-warning {
     color: var(--alert-warn-text);
     background-color: var(--alert-warn-bg);
 }

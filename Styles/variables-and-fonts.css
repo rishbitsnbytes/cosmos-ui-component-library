@@ -15,7 +15,8 @@ body {
     --dark-bg-color: #072227;
     --light-alt-bg-color: #F1F1F1; 
     --dark-alt-bg-color: #041C32;
-    --text-light-color: #F1F1F1;
+    --text-light-color:  #FFFFFF;
+    --text-light-alt-color: #F1F1F1;
     --text-dark-color: #000000;
     --text-dark-alt-color: #808080;
     --shadow-bg-gen: #808080;
@@ -27,6 +28,8 @@ body {
     /* Input colors */
     --border-dark-color: #000000;
     --border-light-color: #808080;
+    --border-lighter-color: #e0e0e0;
+    --border-very-light-color: #F1F1F1;
     --border-warn-color: #eed202;
     --border-error-color: #FF0000;
     --border-success-color: #009E60;

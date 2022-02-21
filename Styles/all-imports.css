@@ -1,5 +1,7 @@
 @import url(/Styles/reset.css);
 @import url(/Styles/variables-and-fonts.css);
+
+/* Components */
 @import url(/Components/Alerts/alerts.css);
 @import url(/Components/Avatars/avatar.css);
 @import url(/Components/Badges/badges.css);
@@ -9,5 +11,8 @@
 @import url(/Components/Inputs/inputs.css);
 @import url(/Components/Lists/);
 @import url(/Components/Modal/modal.css);
+@import url(/Components/Navigation/navigation.css);
+@import url(/Components/Toasts-Ratings/toasts.css);
+@import url(/Components/Toasts-Ratings/ratings.css);
 @import url(/Components/Simplified-Grid/grids.css);
 @import url(/Components/Typography/typography.css);

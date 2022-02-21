@@ -42,6 +42,7 @@
 .text {
     max-width: 100%;
     font-weight: var(--weight-reg);
+    margin: 0.5rem 0;
 }
 
 .text-xs {

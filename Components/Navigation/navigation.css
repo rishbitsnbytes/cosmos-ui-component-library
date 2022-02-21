@@ -7,10 +7,13 @@
     width: 100%;
     height: fit-content;
     font-weight: var(--weight-bold);
+    font-size: var(--h3);
     background-color: var(--secondary-color);
     
     padding: 0.1rem 2rem;
     box-sizing: border-box;
+    border-radius: 0.5rem;
+
 
     display: flex;
     justify-content: space-between;
@@ -93,7 +96,7 @@
     border: none;
     background-color: unset;
     font-size: 1rem;
-    height: 50%;
+    height: 70%;
  }
  
  .btn-primary {
@@ -101,7 +104,3 @@
      color: white;   
  }
  
- .btn-link {
-     text-decoration: underline;
-     color: var(--primary-color);
- }
